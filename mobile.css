@@ -1,0 +1,62 @@
+@media(min-width:320px)and (max-width:767px){
+    .header-nav ul{
+        display: none;
+    }
+    .header-logo h1{
+        font-size: 25px;
+    }
+   
+.header-line{
+    animation-name: header-line;
+    animation-timing-function: linear;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    background-color: blue;
+    width: 40px;
+    height: 3px;
+    position: relative;
+    top: 60px;
+    
+}
+
+@keyframes header-line{
+    from{
+        transform:translateX(0px);
+    }to{
+        transform: translateX(400px);
+    }
+}
+
+header{
+  border-bottom: 1px solid black;
+    width: 100%;
+}
+
+section{
+    padding-top: 50px;
+}
+
+.section-profile img{
+    position: relative;
+    left: 0px;
+    top: 10px;
+    width: 250px;
+}
+.section-profile{
+    text-align: center;
+}
+
+.section-content h2{
+    font-size: 35px;
+}
+.section-content p{
+  width: 90%;
+}
+.section-content button{
+    padding: 5px 5px;
+    cursor: pointer;
+}
+.section-content i{
+    font-size: 20px;
+}
+}

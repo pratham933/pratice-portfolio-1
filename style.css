@@ -1,24 +1,25 @@
-*{
+* {
     margin: 0%;
     padding: 0%;
 }
 
-body{
-   
+body {
+
     color: black;
 }
 
-.container{
+.container {
     margin: 0% auto;
     width: 90%;
 }
+
 /* Header */
 
-header{
+header {
     border-bottom: 1px solid orange;
 }
 
-.header-line{
+.header-line {
     animation-name: header-line;
     animation-timing-function: linear;
     animation-duration: 10s;
@@ -28,45 +29,47 @@ header{
     height: 3px;
     position: relative;
     top: 58px;
-    
+
 }
 
-@keyframes header-line{
-    from{
-        transform:translateX(0px);
-    }to{
+@keyframes header-line {
+    from {
+        transform: translateX(0px);
+    }
+
+    to {
         transform: translateX(1300px);
     }
 }
 
-.header-flex{
+.header-flex {
     display: flex;
     gap: 100px;
 }
 
 
-.header-logo h1{
+.header-logo h1 {
     font-size: 40px;
-    background: linear-gradient(yellow,red);
+    background: linear-gradient(yellow, red);
     color: transparent;
     -webkit-background-clip: text;
-     padding-top: 20px;
-    
+    padding-top: 20px;
+
 }
 
-.header-nav ul{
+.header-nav ul {
     display: flex;
     list-style: none;
     gap: 30px;
-    padding-top: 37px; 
+    padding-top: 37px;
 }
 
-.header-flex a{
+.header-flex a {
     text-decoration: none;
     color: black;
 }
 
-.header-nav a:hover{
+.header-nav a:hover {
     color: red;
     background-color: black;
 }
@@ -74,79 +77,156 @@ header{
 /* Section 1st portfolio */
 
 
-section{
-    padding-top: 100px;
+section {
+    padding-top: 10px;
 }
 
-.section-content p{
-  margin: 20px;
+.section-content p {
+    margin: 20px;
 }
 
-.section-content h2{
+.section-content h2 {
     font-size: 50px;
     padding-left: 20px;
 }
 
-.section-paragraph{
+.section-paragraph {
     width: 500px;
     line-height: 30px;
 }
 
-.section-content button{
+.section-content button {
     margin-left: 20px;
-     padding: 10px 15px;
-     font-size: 15px;
-     border-radius: 5px;
-     background-color:brown;
+    padding: 10px 15px;
+    font-size: 15px;
+    border-radius: 5px;
+    background-color: rgb(255, 230, 0);
 }
 
-.section-content button:hover{
+.section-content button:hover {
     background-color: blueviolet;
     color: white;
 }
 
-.section-i i{
+.section-i i {
     padding-top: 20px;
-     padding-left: 20px;
-     font-size: 25px;
-  
+    padding-left: 20px;
+    font-size: 25px;
+
 }
 
 .section-profile {
-   text-align: right;
-   
+    text-align: right;
+
 }
 
 
-.section-content p:first-child{
+.section-content p:first-child {
     color: blue;
 }
 
-.section-span{
+.section-span {
     color: blue;
 }
 
-.section-content mark{
+.section-content mark {
     background-color: darkorange;
 }
 
-.section-i i:hover{
-    color: blueviolet;
+.section-i i {
+    font-size: 30px;
+}
+
+.section-i i:hover {
+    font-size: 35px;
 }
 
 
-.section-flex{
+.section-flex {
     display: flex;
     align-items: center;
     justify-content: space-between;
     gap: 40px;
 }
 
-.section-profile img{
+.section-profile img {
     max-width: 100%;
     height: auto;
+  
 }
 
-.profile-h{
+.profile-h {
     visibility: hidden;
 }
+
+.facebook {
+    color: blue;
+}
+
+.linkedin {
+    color: blue;
+}
+
+.instagram {
+    color: rgb(255, 0, 0);
+
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.article-1{
+    padding-top: 50px;
+}
+
+.article-1 h2{
+    text-align: center;
+    font-size: 40px;
+}
+
+.about-me{
+    padding-top: 50px;
+    /* padding-left: 200px; */
+}
+
+.name{
+    padding-top: 50px;
+}
+
+.about-me p{
+    padding-left: 100px;
+}
+
+.number{
+    display: inline-block;
+    
+}
+
+.number h3{
+    padding-left: 100px;
+    font-size: 40px;
+     font-weight: bolder;
+}
+
+.number p{
+    padding-left: 100px;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.n{
+    padding-top: 50px;
+}
+
+.about-me p{
+    font-weight: 600;
+}
+
+.profile-img{
+    border: 5px solid rgb(179, 179, 179);
+    box-shadow: inset 10px 100px 97px -1px blueviolet;
+}
+
+

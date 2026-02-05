@@ -36,7 +36,7 @@
     }
 
     section {
-        padding-top: 50px;
+        padding-top: 10px;
     }
 
     .section-profile img {
@@ -68,13 +68,15 @@
         padding: 5px 10px;
         cursor: pointer;
        align-items: center;
-       margin-left: 10px;
+       margin-left: 9px;
     }
 
     .section-content i {
         font-size: 30px;
-        width: 15%;
+        width: 19%;
     }
+
+
 
     .profile-h {
         visibility: visible;
@@ -85,5 +87,34 @@
         font-size: 24px;
       
     }
+    .facebook{
+        color: blue;
+    }
 
+    .linkedin{
+        color: blue;
+    }
+
+    .instagram{
+        color: rgb(255, 0, 0);
+       
+    }
+    .flex{
+         flex-direction: column-reverse;
+    }
+     
+.number h3{
+    padding-left: 0px;
+    font-size: 40px;
+     font-weight: bolder;
+}
+.about-me p{
+    padding-left: 0px;
+}
+.profile-img img{
+   width: 250px;
+}
+.profile-img{
+    text-align: center;
+}
 }

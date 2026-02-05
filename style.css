@@ -92,12 +92,6 @@ section{
     line-height: 30px;
 }
 
-.section-flex{
-    display: flex;
-}
-
-
-
 .section-content button{
     margin-left: 20px;
      padding: 10px 15px;
@@ -140,8 +134,19 @@ section{
     color: blueviolet;
 }
 
+
+.section-flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+}
+
 .section-profile img{
-    position: relative;
-    left: 700px;
-    top: -470px;
+    max-width: 100%;
+    height: auto;
+}
+
+.profile-h{
+    visibility: hidden;
 }

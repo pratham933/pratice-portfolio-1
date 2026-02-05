@@ -1,62 +1,89 @@
-@media(min-width:320px)and (max-width:767px){
-    .header-nav ul{
+@media(min-width:320px)and (max-width:767px) {
+    .header-nav ul {
         display: none;
     }
-    .header-logo h1{
+
+    .header-logo h1 {
         font-size: 25px;
     }
-   
-.header-line{
-    animation-name: header-line;
-    animation-timing-function: linear;
-    animation-duration: 10s;
-    animation-iteration-count: infinite;
-    background-color: blue;
-    width: 40px;
-    height: 3px;
-    position: relative;
-    top: 60px;
-    
-}
 
-@keyframes header-line{
-    from{
-        transform:translateX(0px);
-    }to{
-        transform: translateX(400px);
+    .header-line {
+        animation-name: header-line;
+        animation-timing-function: linear;
+        animation-duration: 10s;
+        animation-iteration-count: infinite;
+        background-color: blue;
+        width: 40px;
+        height: 3px;
+        position: relative;
+        top: 60px;
+
     }
-}
 
-header{
-  border-bottom: 1px solid black;
-    width: 100%;
-}
+    @keyframes header-line {
+        from {
+            transform: translateX(0px);
+        }
 
-section{
-    padding-top: 50px;
-}
+        to {
+            transform: translateX(400px);
+        }
+    }
 
-.section-profile img{
-    position: relative;
-    left: 0px;
-    top: 10px;
-    width: 250px;
-}
-.section-profile{
-    text-align: center;
-}
+    header {
+        border-bottom: 1px solid black;
+        width: 100%;
+    }
 
-.section-content h2{
-    font-size: 35px;
-}
-.section-content p{
-  width: 90%;
-}
-.section-content button{
-    padding: 5px 5px;
-    cursor: pointer;
-}
-.section-content i{
-    font-size: 20px;
-}
+    section {
+        padding-top: 50px;
+    }
+
+    .section-profile img {
+        position: relative;
+        width: 250px;
+    }
+
+
+
+    .section-profile {
+        text-align: center;
+    }
+
+    .section-flex {
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+
+    .section-content h2 {
+        font-size: 35px;
+        width: 92%;
+    }
+
+    .section-content p {
+        width: 88%;
+    }
+
+    .section-content button {
+        padding: 5px 10px;
+        cursor: pointer;
+       align-items: center;
+       margin-left: 10px;
+    }
+
+    .section-content i {
+        font-size: 30px;
+        width: 15%;
+    }
+
+    .profile-h {
+        visibility: visible;
+        position: absolute;
+        z-index: -1;
+        top: 219px;
+        left: 37px;
+        font-size: 27px;
+        width: 85%;
+    }
+
 }

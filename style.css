@@ -4,7 +4,7 @@
 }
 
 body {
-
+    background: linear-gradient(90deg, #ffffff 0%, #6969da 100%) !important;
     color: black;
 }
 
@@ -28,7 +28,7 @@ header {
     width: 40px;
     height: 3px;
     position: relative;
-    top: 58px;
+    top: 70px;
 
 }
 
@@ -127,6 +127,10 @@ section {
 
 .section-span {
     color: blue;
+      font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style : normal;
 }
 
 .section-content mark {
@@ -186,8 +190,20 @@ section {
     font-size: 40px;
 }
 
+.about-me h2{
+    font-size: 50px;
+      font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+
 .about-me{
     padding-top: 50px;
+     font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
     /* padding-left: 200px; */
 }
 
@@ -222,6 +238,9 @@ section {
 
 .about-me p{
     font-weight: 600;
+}
+.about{
+    color: red;
 }
 
 .profile-img{

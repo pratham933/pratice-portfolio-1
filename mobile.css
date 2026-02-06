@@ -16,7 +16,7 @@
         width: 40px;
         height: 3px;
         position: relative;
-        top: 57.5px;
+        top: 62px;
 
     }
 
@@ -67,8 +67,8 @@
     .section-content button {
         padding: 5px 10px;
         cursor: pointer;
-       align-items: center;
-       margin-left: 9px;
+        align-items: center;
+        margin-left: 9px;
     }
 
     .section-content i {
@@ -82,39 +82,55 @@
         visibility: visible;
         position: absolute;
         z-index: -1;
-        top: 219px;
+        top: 200px;
         text-align: center;
-        font-size: 24px;
-      
+        font-size: 22px;
+        font-family: "Playfair Display", serif;
+        font-optical-sizing: auto;
+        font-weight: weight;
+        font-style: normal;
     }
-    .facebook{
+
+    .facebook {
         color: blue;
     }
 
-    .linkedin{
+    .linkedin {
         color: blue;
     }
 
-    .instagram{
+    .instagram {
         color: rgb(255, 0, 0);
-       
+
     }
-    .flex{
-         flex-direction: column-reverse;
+
+    .flex {
+        flex-direction: column-reverse;
     }
-     
-.number h3{
-    padding-left: 0px;
-    font-size: 40px;
-     font-weight: bolder;
-}
-.about-me p{
-    padding-left: 0px;
-}
-.profile-img img{
-   width: 250px;
-}
-.profile-img{
-    text-align: center;
+
+    .number h3 {
+        padding-left: 0px;
+        font-size: 40px;
+        font-weight: bolder;
+    }
+
+    .about-me p {
+        padding-left: 0px;
+        text-align: center;
+    }
+
+    .profile-img img {
+        width: 250px;
+    }
+
+    .profile-img {
+        text-align: center;
+    }
+
+    .number h3 {
+        padding-left: 40px;
+    }
+    .article-1{
+    padding-top: 5px;
 }
 }

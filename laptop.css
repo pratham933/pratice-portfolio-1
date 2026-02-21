@@ -1,0 +1,55 @@
+@media (min-width: 940px) and (max-width: 1210px) {
+    .section-content p {
+        width: 80%;
+    }
+
+    .section-profile img {
+        position: relative;
+        top: -60px;
+        width: 500px;
+    }
+    .section-content button{
+        margin-left: 200px;
+    }
+    
+
+    .section-content p {
+        font-size: 20px;
+        width: 81%;
+        text-align: center;
+    }
+
+    .profile-img img {
+        width: 350px;
+    }
+
+    .n {
+        padding-top: 10px;
+    }
+
+    .article-1 {
+        padding-top: 10px;
+    }
+
+    .about-me p {
+        padding-left: 80px;
+    }
+
+    .number h3 {
+        /* padding-left: 60px; */
+        font-size: 44px;
+        font-weight: bolder;
+    }
+
+    .article-1 h2 {
+        padding-top: 0px;
+    }
+
+    .about-me {
+        padding-top: 10px;
+    }
+
+    .name {
+        padding-top: 12px;
+    }
+}
